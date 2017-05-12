@@ -13,5 +13,10 @@
     "14175575863689886451L" : { "owner" : "Adviser Assets", "description" : "LiskHQ" },
     "5726759782318848681L"  : { "owner" : "Lisk Foundation", "description" : "LiskHQ" },
     "15841793714384967784L" : { "owner" : "Lisk Community Assets", "description" : "LiskHQ" },
-    "11737606468871099380L" : { "owner" : "Changelly", "description" : "Main Wallet" }
+    "11737606468871099380L" : { "owner" : "Changelly", "description" : "Main Wallet" },
+      "11069205773075931296" : {"owner" : "EliteGroup", "description" : "Elite Group Donation"},
+    "8826600420711080228L" : {"owner" : "EliteGroup", "description" : "Elite Group Reward"},
+    "9607756660813407552" : {"owner" : "EliteGroup", "description" : "Elite Group Payout"},
+    "9104439788933259758L" : {"owner" : "EliteGroup", "description" : "LiskElite.Com Payout"}
+
 }
