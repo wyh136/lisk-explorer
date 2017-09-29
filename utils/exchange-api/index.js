@@ -66,6 +66,15 @@ module.exports = function (config) {
                 }
             ]
         },
+        'BTCCNY' : {
+            'cmp' : [
+                'Coinmarketcap',
+                'https://api.coinmarketcap.com/v1/ticker/bitcoin/?convert=CNY',
+                function (res, cb) {
+                    return cb(null, res[0].price_cny);
+                }
+            ]
+        },
         'LSKBTC' : {
             'poloniex' : [
                 'Poloniex',
