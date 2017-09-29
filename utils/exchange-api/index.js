@@ -80,12 +80,12 @@ module.exports = function (config) {
             ]
         },
         'LSKCNY' : {
-            'jubi' : [
-                'Jubi',
-                'https://www.jubi.com/api/v1/ticker/?coin=lsk',
+            'cmp' : [
+                'Coinmarketcap',
+                'hhttps://api.coinmarketcap.com/v1/ticker/lisk/?convert=CNY',
                 function (res, cb) {
                     if (res.last) {
-                        return cb(null, res.last);
+                        return cb(null, res[0].price_cny);
                     } else {
                         return cb('Unable to get last price');
                     }
